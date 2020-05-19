@@ -1,8 +1,11 @@
 # code here!
 class School
   attr_reader :roster
-ROSTER = {}
+
   def initialize(roster)
-    ROSTER
+    @roster = roster
   end
+  
+  def roster
+    
 end
